@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"  initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div id="container">
+      <div id="picture" class="containers">
+        <picture>
+          <source srcset="https://images.unsplash.com/photo-1633158165793-c48be169c242?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" media="(min-width:992px)">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="image">
+        </picture>
+        </div>
+      <div id="form" class="containers">
+        <form
+          method="get"
+          enctype="application/x-www-form-urlencoded"
+          action="/html/codes/html_form_handler.cfm"
+        >
+          <p>
+            <label
+              >Name
+              <input type="text" name="customer_name" required/>
+            </label>
+          </p>
+
+          <p>
+            <label
+              >Phone
+              <input type="tel" name="phone_number" />
+            </label>
+          </p>
+
+          <p>
+            <label
+              >Email
+              <input type="email" name="email_address" />
+            </label>
+          </p>
+
+          <fieldset>
+            <legend>Which taxi do you require?</legend>
+            <p>
+              <label>
+                <input type="radio" name="taxi" required value="car" /> Car
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="radio" name="taxi" required value="van" /> Van
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="radio" name="taxi" required value="tuktuk" /> Tuk
+                Tuk
+              </label>
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Extras</legend>
+            <p>
+              <label>
+                <input type="checkbox" name="extras" value="baby" /> Baby Seat
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="extras" value="wheelchair" />
+                Wheelchair Access
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox" name="extras" value="tip" /> Stock Tip
+              </label>
+            </p>
+          </fieldset>
+
+          <p><button>Submit Booking</button></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

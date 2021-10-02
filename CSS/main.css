@@ -1,0 +1,94 @@
+/* MEDIA QUERY */
+@media screen and (max-width:600px){
+    #container{
+        border: 1px solid black;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    } 
+ 
+    .containers{
+        border: 1px solid black;
+        height: auto;
+        width: 100%;
+    }
+ 
+    img{
+        height: auto;
+        width: 100%;
+    }      
+}
+
+@media screen and (min-width:600px){
+    #container{
+        border: 1px solid black;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    } 
+ 
+    .containers{
+        border: 1px solid black;
+        height: auto;
+        width: 100%;
+    }
+ 
+    img{
+        height: auto;
+        width: 100%;
+    } 
+}
+
+@media screen and (min-width:786px){
+    #container{
+        border: 1px solid black;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    } 
+ 
+    .containers{
+        border: 1px solid black;
+        height: auto;
+        width: 100%;
+    }
+ 
+    img{
+        height: auto;
+        width: 100%;
+    }    
+}
+
+@media screen and (min-width:992px){
+    #container{
+        border: 1px solid black;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    } 
+ 
+    .containers{
+        border: 1px solid black;
+        height: auto;
+        width: 100%;
+    }
+ 
+    img{
+        height: auto;
+        width: 100%;
+    }    
+}
+
+@media screen and (min-width:1200px){
+   #container{
+       border: 1px solid black;
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: space-between;
+   } 
+
+   .containers{
+       border: 1px solid black;
+       height: auto;
+       width: 100%;
+   }
